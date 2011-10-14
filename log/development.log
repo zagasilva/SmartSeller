@@ -541,3 +541,11 @@ Migrating to CreateMicroposts (20111014011517)
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("microposts")[0m
   [1m[35m (0.0ms)[0m  PRAGMA index_list("posts")
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("users")[0m
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20111014005341)
+Migrating to CreateMicroposts (20111014011517)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("microposts")
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("posts")[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("users")
