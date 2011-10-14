@@ -1,5 +1,7 @@
 SmartSeller::Application.routes.draw do
-  resources :posts
+  resources :microposts
+
+  resources :users
 
   get "welcome/index"
 
